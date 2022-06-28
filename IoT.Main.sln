@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Main.Api", "Iot.Main.Api\Iot.Main.Api.csproj", "{C611D4B0-2266-44F0-8561-F30FE4B741AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Main.Infrastructure", "Iot.Main.Infrastructure\Iot.Main.Infrastructure.csproj", "{21F5ACF5-297B-45FF-9F41-FC44038D9063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Main.Domain", "Iot.Main.Domain\Iot.Main.Domain.csproj", "{614A06BA-236F-4334-959A-1DA58CB98A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Main.Tests", "Iot.Main.Tests\Iot.Main.Tests.csproj", "{C8DB2965-7619-4264-9336-D9B887D7E2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoT.Processor.Api", "IoT.Processor.Api\IoT.Processor.Api.csproj", "{EA840C6B-0F29-46C8-A60C-9B0FDB672BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C611D4B0-2266-44F0-8561-F30FE4B741AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C611D4B0-2266-44F0-8561-F30FE4B741AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C611D4B0-2266-44F0-8561-F30FE4B741AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C611D4B0-2266-44F0-8561-F30FE4B741AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F5ACF5-297B-45FF-9F41-FC44038D9063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F5ACF5-297B-45FF-9F41-FC44038D9063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F5ACF5-297B-45FF-9F41-FC44038D9063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F5ACF5-297B-45FF-9F41-FC44038D9063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614A06BA-236F-4334-959A-1DA58CB98A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614A06BA-236F-4334-959A-1DA58CB98A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614A06BA-236F-4334-959A-1DA58CB98A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614A06BA-236F-4334-959A-1DA58CB98A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DB2965-7619-4264-9336-D9B887D7E2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DB2965-7619-4264-9336-D9B887D7E2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DB2965-7619-4264-9336-D9B887D7E2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DB2965-7619-4264-9336-D9B887D7E2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA840C6B-0F29-46C8-A60C-9B0FDB672BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA840C6B-0F29-46C8-A60C-9B0FDB672BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA840C6B-0F29-46C8-A60C-9B0FDB672BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA840C6B-0F29-46C8-A60C-9B0FDB672BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

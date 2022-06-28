@@ -1,0 +1,3 @@
+{
+    "dotnet-test-explorer.testArguments": "--logger \"console;verbosity=detailed\"",
+}
